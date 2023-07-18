@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 24px;
+    background-color:white
+}
+/* header */
+.header-main{
+    background-image: url('image/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:90vh;
+   border:none;
+  
+   /* margin-top: 50rem; */
+}
+/* .imgg{
+    filter:opacity(0.5) drop-shadow(0 0 green);
+    filter: saturate(0.5) drop-shadow(0 0 blue);
+} */
+.logo{
+    width:12%;
+    object-fit: contain;
+}
+.header-section{
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 20px;
+ position: fixed;
+ top:0;
+ left: 0;
+ right: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.models,
+.model-2{
+    display: flex;
+    gap:30px;
+}
+/* navbaritems */
+.menu-1{
+    display: none;
+}
+.menu-items{
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    right:0;
+    height: 100vh;
+    display: none;
+    padding: 6px;
+    background-color: white;
+  
+}
+.menu-list{
+    margin: 30px;
+   
+}
+.lists{
+    margin-bottom: 20px;
+}
+/* stats */
+.statss{
+    flex-direction: column;
+    text-align: center;
+   
+    /* background-color: rgba(14, 12, 12, 0.661); */
+}
+.time{
+    font-size: 30px;
+}
+.road{
+    font-size:60px;
+   padding-top: 60px;
+    color: rgb(102, 102, 102);
+}
+.statics{
+    margin-top: 23em;
+    color: white;
+    background-color: rgba(14, 12, 12, 0.074);
+}
+.ranges{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:60px;
+   font-family:sans-serif;
+}
+.lorem{
+    font-size: 16px;
+
+}
+.mps{
+    font-size: 12px;
+}
+.cal{
+    flex-direction: column;
+    text-align: center;
+}
+.speed-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    width:20px;
+}
+.btn{
+    width:8%;
+    color: white;
+    padding: 13px;
+    border-radius: 25px;
+    border: 4px solid white;
+    background-color: rgba(14, 12, 12, 0.074);
+}
+/* ending header */
+#video{
+    margin-top: 20px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+   
+}
+.video{
+    width:90%;
+    height: 50vh;
+   
+}
+.under-vide{
+    /* margin-top: 20px; */
+  display: grid;
+  color: black;
+  justify-content:center;
+}
+.flex{
+    display:flex;
+ justify-content: space-between;
+    align-items: center;
+  gap:28rem;
+    border-bottom: 2px solid rgb(9, 9, 9);
+  padding: 20px 0px;
+}
+
+/* third */
+.movingcar{
+    background-image: url('image/elec.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:90vh;
+    color: black;
+    margin-top: 10rem;
+    text-align: center;
+}
+.modely{
+    padding-top: 6rem;
+}
+.design{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 40rem; */
+   gap:25px;
+   text-align: center;
+   align-items: center;
+
+}
+.order-btn{
+  margin-top: 29rem;
+  width:30%;
+  padding: 14px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+/* .order-btn2{
+    
+    width:50%;
+    padding: 14px;
+    font-size: 24px;
+    cursor: pointer;
+  } */
+.order-btn1{
+     margin-top: 29rem;
+    width:30%;
+    /* margin-top: 14px; */
+    padding: 14px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 9px;
+}
+.Car2{
+    background-image: url('image/concept-000.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    /* width:80%; */
+    height:80vh;
+    text-align: center;
+   
+}
+.images{
+    background-image: url('image/tess.jpg');
+    background-position: center;
+    object-fit: cover;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height:80vh;
+    color: white;
+    text-align: center;
+}
+.solar{
+    background-image: url('image/car2.jpg');
+    background-position: center;
+    
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height:80vh;
+}
+
+
+@media screen and (max-width: 480px){
+    .header-section{
+        justify-content: space-between;
+    }
+    .models,
+.model-2{
+    display: none;
+}
+    .header-main{
+        height: 50vh;
+    }
+    .menu-1{
+        display: block;
+        padding: 6px;
+        color: white;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        /* transition:0.9ms; */
+        background-color: rgb(85, 85, 85);
+    }
+    .logo{
+        width:20%;
+    }
+    .menu-items{
+       z-index: 1;
+        display: none;
+         cursor: pointer;
+         transition:0.9ms;
+    }
+    .road{
+        font-size: 28px;
+    }
+.btn{
+    width: 20%;
+    font-size: 7px;
+}
+    .statics{
+        margin-top: 12em;
+        
+    }
+    .ranges{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        gap:8px;
+       font-family:sans-serif;
+    }
+    .lorem{
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .arrow{
+        
+    }
+    .speedd{
+       width: 20%;
+    }
+    .time{
+        font-size: 17px;
+    }
+    .mps{
+        font-size: 10px;
+    }
+    .video{       
+        height: 60vh; 
+        z-index: -2px;
+    }
+    .flex{
+     
+      gap:8rem;
+      
+      padding: 10px 0px;
+    }
+
+
+     .Car2{
+        
+        height: 50vh;
+     }
+     .design{
+        display: grid;
+        gap:2px;
+     }
+     .order-btn{
+        width: 100%;
+        margin-top: 15rem;
+        /* padding: 11px; */
+        border-radius: 7px;
+       font-size: 14px;
+     }
+    
+     .order-btn1{
+        margin-top: 1rem;
+        width: 100%;
+       border-radius: 7px;
+        /* padding: 11px; */
+        font-size: 14px;
+     }
+     .start{
+        font-size: 16px;
+     }
+     .modely{
+        padding-top: 3rem;
+        font-size: 40px;
+     }
+     .movingcar{
+        height: 50vh;
+     
+     }
+     .images{
+       color: black;
+        /* margin-top: 5rem; */
+        height: 50vh;
+     }
+}
