@@ -179,7 +179,7 @@ a{
 
 }
 .order-btn{
-  margin-top: 24rem;
+  margin-top: 21rem;
   width:40%;
   padding: 14px;
   font-size: 24px;
@@ -194,7 +194,7 @@ a{
     cursor: pointer;
   } */
 .order-btn1{
-     margin-top: 24rem;
+     margin-top: 21rem;
     width:40%;
     /* margin-top: 14px; */
     padding: 14px;
@@ -270,7 +270,7 @@ a{
         font-size: 28px;
     }
 .btn{
-    width: 15%;
+    width: 20%;
     font-size: 5px;
 }
     .statics{
@@ -278,13 +278,13 @@ a{
         
     }
     .ranges{
-        margin-top: 20px;
-        margin-bottom: 10px;
+        /* margin-top: 20px;
+        margin-bottom: 10px; */
         gap:7px;
        font-family:sans-serif;
     }
     .lorem{
-        font-size: 10px;
+        font-size: 8px;
         margin-bottom: 8px;
     }
     .arrow{
@@ -310,20 +310,20 @@ a{
      
       gap:6rem;
       
-      padding: 7px 0px;
+      padding: 5px 0px;
     }
     .accel{
-        font-size: 14px;
+        font-size: 12px;
     }
     .acc{
-        font-size: 12px;
+        font-size: 10px;
     }
      .Car2{
         
         height: 50vh;
      }
      .modely{
-        font-size: 24px;
+        font-size: 20px;
      }
      .design{
         display: grid;
