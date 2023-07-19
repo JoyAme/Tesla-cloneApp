@@ -274,7 +274,7 @@ a{
     font-size: 5px;
 }
     .statics{
-        margin-top: 4em;
+        margin-top: 7em;
         
     }
     .ranges{
@@ -294,9 +294,12 @@ a{
        width: 20%;
     }
     .time{
-        font-size: 17px;
+        font-size: 12px;
     }
     .mps{
+        font-size: 8px;
+    }
+    .cal h6{
         font-size: 10px;
     }
     .video{       
@@ -319,6 +322,9 @@ a{
         
         height: 50vh;
      }
+     .modely{
+        font-size: 24px;
+     }
      .design{
         display: grid;
         gap:1px;
@@ -334,7 +340,7 @@ a{
      }
     
      .order-btn1{
-        /* margin-top: 1rem; */
+        margin-top: 1rem;
         width: 100%;
        
        border-radius: 7px;
