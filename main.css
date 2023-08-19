@@ -274,6 +274,7 @@ a:hover{
        z-index: 1;
         display: none;
          cursor: pointer;
+         
          animation-timing-function: 9s ease-out;
          /* animation-name: example;
   animation-duration: 9s;
@@ -293,7 +294,7 @@ a:hover{
        
     }
     .lists{
-        font-size: 18px;
+        font-size: 14px;
         padding: 5px;
         width:60%;
         color: white;
