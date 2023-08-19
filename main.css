@@ -190,9 +190,9 @@ a:hover{
    text-align: center;
    align-items: center;
 
-}
+}s
 .order-btn{
-  margin-top: 50vh;
+  margin-top: 60vh;
   width:40rem;
   padding: 14px;
   font-size: 24px;
@@ -207,7 +207,7 @@ a:hover{
     cursor: pointer;
   } */
 .order-btn1{
-     margin-top: 50vh;
+     margin-top: 58vh;
     width:40rem;
     /* margin-top: 14px; */
     padding: 14px;
@@ -374,8 +374,8 @@ a:hover{
        
      }
      .order-btn{
-        width: 20rem;
-        margin-top: 20vh;
+        width: 16rem;
+        margin-top: 24vh;
         
         /* padding: 11px; */
         border-radius: 7px;
@@ -384,7 +384,7 @@ a:hover{
     
      .order-btn1{
         margin-top: 1rem;
-        width: 20rem;
+        width: 16rem;
        
        border-radius: 7px;
         /* padding: 11px; */
